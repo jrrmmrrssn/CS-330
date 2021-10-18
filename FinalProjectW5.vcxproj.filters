@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glew32.dll" />
+    <None Include="shaderfiles\3.3.shader.fs" />
+    <None Include="shaderfiles\3.3.shader.vs" />
+    <None Include="shaderfiles\4.1.texture.fs" />
+    <None Include="shaderfiles\4.1.texture.vs" />
+    <None Include="shaderfiles\4.2.texture.fs" />
+    <None Include="shaderfiles\4.2.texture.vs" />
+    <None Include="shaderfiles\6.light_cube.fs" />
+    <None Include="shaderfiles\6.light_cube.vs" />
+    <None Include="shaderfiles\6.multiple_lights.fs" />
+    <None Include="shaderfiles\6.multiple_lights.vs" />
+    <None Include="shaderfiles\7.1.camera.fs" />
+    <None Include="shaderfiles\7.1.camera.vs" />
+    <None Include="shaderfiles\7.2.camera.fs" />
+    <None Include="shaderfiles\7.2.camera.vs" />
+    <None Include="shaderfiles\7.3.camera.fs" />
+    <None Include="shaderfiles\7.3.camera.vs" />
+    <None Include="shaderfiles\ColorFragmentShader.fragmentshader" />
+    <None Include="shaderfiles\core.frag" />
+    <None Include="shaderfiles\core.vs" />
+    <None Include="shaderfiles\SimpleTransform.vertexshader" />
+    <None Include="shaderfiles\SingleColor.fragmentshader" />
+    <None Include="shaderfiles\TransformVertexShader.vertexshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="plane.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="walls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="purple.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="stars.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mars.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
